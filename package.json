@@ -1,0 +1,24 @@
+{
+  "name": "techvio_consultant",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.mjs",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.mjs",
+    "dev": "nodemon app.mjs"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@google-cloud/dialogflow": "^5.7.1",
+    "@pinecone-database/pinecone": "^0.0.14",
+    "dialogflow": "^1.2.0",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "langchain": "^0.0.56",
+    "mammoth": "^1.5.1",
+    "node-fetch": "^3.3.1"
+  }
+}
